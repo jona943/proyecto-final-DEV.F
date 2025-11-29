@@ -135,4 +135,23 @@ footer ul li a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto de elevación */
     text-align: left; /* Alinea el texto del formulario a la izquierda */
 }
+
+#contacto form div {
+    margin-bottom: 15px; /* Espacio entre cada grupo de label/input */
+}
+
+#contacto form label {
+    display: block; /* Hace que el label ocupe toda la línea */
+    margin-bottom: 5px; /* Pequeño espacio entre el label y el input */
+    font-weight: bold; /* Hace el texto del label un poco más prominente */
+}
+
+#contacto form input[type="text"],
+#contacto form input[type="email"] {
+    width: 100%; /* El input ocupa todo el ancho disponible */
+    padding: 10px; /* Espacio interno del input */
+    border: 1px solid #ccc; /* Borde simple */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+    box-sizing: border-box; /* Asegura que padding y border no aumenten el ancho total */
+}
         
