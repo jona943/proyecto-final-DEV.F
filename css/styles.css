@@ -56,3 +56,16 @@ body {
     background-color: #FDFDFB; /* Un blanco roto muy sutil para el fondo */
     color: #5C4033; /* Un marrón oscuro para el texto principal */
 }
+
+h1, h2 {
+    color: #A52A2A; /* Color marrón para los títulos */
+}
+
+.titulo-pagina { /* h1 */
+    text-align: center;
+}
+
+/* El box-sizing border-box es crucial para que el padding y el border no sumen al ancho/alto total de los elementos */
+* {
+    box-sizing: border-box;
+}
