@@ -119,4 +119,20 @@ footer a:hover {
 footer ul li a {
     font-weight: normal; /* Restaura el peso de la fuente a normal para los enlaces del footer */
 }
+
+/* ESTILOS DE LA SECCIÓN DE CONTACTO */
+#contacto {
+    text-align: center; /* Centra el título y el formulario */
+    padding: 20px; /* Añade un poco de espacio alrededor de la sección */
+}
+
+#contacto form {
+    max-width: 600px; /* Limita el ancho máximo del formulario */
+    margin: 20px auto; /* Centra el formulario horizontalmente y añade margen vertical */
+    padding: 20px; /* Espacio interno del formulario */
+    border: 1px solid #ccc; /* Borde simple para darle formato */
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto de elevación */
+    text-align: left; /* Alinea el texto del formulario a la izquierda */
+}
         
