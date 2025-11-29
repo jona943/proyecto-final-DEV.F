@@ -13,7 +13,10 @@
 </head>
 
 <body>
+    <!-- La etiqueta <body> contiene todo el contenido visible de tu página web, como textos, imágenes y enlaces. -->
+    <!-- La etiqueta <header> contiene el contenido introductorio de la página, como el logo, el título principal y la navegación. -->
     <header class="barra-nav">
+        <!-- Esta lista de enlaces es la navegación principal de tu sitio. Idealmente, estaría dentro de una etiqueta <nav> para indicar su rol semántico. -->
         <ul>
             <li><a href="nosotros">Nosotros</a></li>
             <li><a href="servicios">Servicios</a></li>
@@ -23,9 +26,12 @@
     </header>
 
     <!--Informacion principal de la pagina-->
+    <!-- La etiqueta <main> contiene el contenido principal y más importante de tu página. Solo debe haber una por documento. -->
     <main>
+        <!-- <h1> es el título principal de la página. Es importante que solo haya un <h1> por documento para una buena estructura y SEO. -->
         <h1 class="titulo-pagina">Libreria "Friend Book"</h1>
         <!--Esta va a ser la seccion de Nosotros-->
+        <!-- <section> se usa para agrupar contenido relacionado temáticamente. Cada sección debería tener un encabezado (h1-h6). -->
         <section id="nosotros">
             <div>
                 <h2>Nosotros</h2>
@@ -37,6 +43,7 @@
                     educar y entretener. Más que una librería, somos una comunidad.
                 </p>
                 <img src="img/interior-libreria.jpeg" alt="Interior acogedor de la librería Friend Book">
+                <!-- El atributo 'alt' (texto alternativo) es vital para la accesibilidad. Describe la imagen para usuarios con discapacidad visual o cuando la imagen no carga. -->
             </div>
         </section>
 
@@ -44,6 +51,7 @@
         <section id="servicios">
             <div>
                 <h2>Servicios</h2>
+                <!-- La etiqueta <ul> se usa para listas donde el orden de los elementos no es importante (por ejemplo, una lista de servicios). -->
                 <ul>
                     <li class="servicio">Venta de libros nuevos y de segunda mano</li>
                     <li class="servicio">Club de lectura y eventos literarios</li>
@@ -57,8 +65,10 @@
 
         <!--Esta va a ser la seccion de recomendados-->
         <section id="recomendados">
+            <!-- <figure> se usa para agrupar contenido autónomo (como una imagen, un código, etc.) que puede ser referenciado desde el documento principal. -->
             <figure class="libro-recomendado">
                 <img src="img/portadas-libros/Como-detectar-mentiras.jpg" alt="Portada de Cómo detectar mentiras">
+                <!-- <figcaption> proporciona una leyenda o descripción para el contenido de <figure>. -->
                 <figcaption>
                     <h2 class="titulo-prod">Cómo detectar mentiras</h2>
                     <p class="descripcion-prod">Una guía para interpretar el lenguaje corporal y las microexpresiones.</p>
@@ -109,10 +119,14 @@
 
         <section id="contacto">
             <h2>Solicitud de libro</h2>
+            <!-- La etiqueta <form> se usa para crear un formulario interactivo donde los usuarios pueden introducir y enviar datos. -->
             <form action="">
+                <!-- <fieldset> agrupa elementos relacionados dentro de un formulario para mejor accesibilidad y organización. -->
                 <fieldset>
+                    <!-- <legend> proporciona un título o una descripción para el grupo de campos dentro de un <fieldset>. -->
                     <legend>Informacion del libro</legend>
                     <div>
+                        <!-- La etiqueta <label> asocia texto descriptivo con un control de formulario. Es esencial para la accesibilidad, ya que permite a los usuarios de lectores de pantalla entender qué información se espera en cada campo. El atributo 'for' se conecta con el 'id' del <input>. -->
                         <label for="titulo_libro">Titulo del Libro</label>
                         <input type="text">
                     </div>
@@ -140,6 +154,7 @@
     </main>
 
     <!--Pie de pagina-->
+    <!-- La etiqueta <footer> se usa para el pie de página de un documento o sección. Aquí suele ir información como derechos de autor, enlaces de contacto o navegación secundaria. -->
     <footer>
         <p>2025 Libreria "Friend Book". Todos los derechos reservados.</p>
         <ul>
